@@ -1,0 +1,18 @@
+Author: Keshav Narula, 101224607
+
+Program emualtes a Hotel, with specfic rooms, the rooms have chronological stored reservations that cannot overlap. The Reservations contain the customer name, the reservation start date and the duration of the reservation in days 
+
+List of Files: 
+	defs.h , main.cc , Date.cc /.h , Date.cc /.h , Reservation.cc /.h , Room.cc /.h  , Hotel.cc /.h Makefile
+
+Instructions for Compilation terminal:
+	make all
+	
+
+Instructions for Launching in terminal:
+	./a1
+	
+make clean (removes object files & executable)
+
+
+Requirements Total: 26 marks (AlL requirement marks are met besides the BONUS updateReservations function)

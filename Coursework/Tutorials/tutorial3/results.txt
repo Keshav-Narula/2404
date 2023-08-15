@@ -1,0 +1,105 @@
+***************************************************************************
+* Unzipping *.zip
+***************************************************************************
+
+***************************************************************************
+* Compilation
+***************************************************************************
+Executing: make clean
+Executing: make all
+Running: ./test2
+
+Reservation for someone on September30, 2023 for 1 days.
+Reservation for someone2 on September30, 2023 for 2 days.
+
+Reservations overlap
+
+Successful overlap test
+
+Running: ./test2
+
+Reservation for someone on September30, 2023 for 1 days.
+Reservation for someone2 on September29, 2023 for 3 days.
+
+Reservations overlap
+
+Successful overlap test
+
+Running: ./test2
+
+Reservation for someone on September26, 2023 for 2 days.
+Reservation for someone2 on September30, 2023 for 7 days.
+
+Reservations do not overlap
+
+Successful overlap test
+
+Running: ./test2
+
+Reservation for someone on September26, 2023 for 4 days.
+Reservation for someone2 on September30, 2023 for 2 days.
+
+Reservations do not overlap
+
+Successful overlap test
+
+Running: ./test2
+
+Reservation for someone on August30, 2023 for 2 days.
+Reservation for someone2 on September30, 2023 for 2 days.
+
+Reservations do not overlap
+
+Successful overlap test
+
+Running: ./test2
+
+Reservation for someone on September30, 2022 for 11 days.
+Reservation for someone2 on September30, 2023 for 12 days.
+
+Reservations do not overlap
+
+Successful overlap test
+
+Running: ./test1
+
+Room Number: 101, BedType: King, Capacity: 2, HasFridge: 0, numReservations: 0
+
+isMatch test successful
+
+Running: ./test1
+
+Room Number: 101, BedType: Queen, Capacity: 2, HasFridge: 0, numReservations: 0
+Error, you have isMatch =true and it should be false
+
+Program exited with non-zero status, test failed
+Running: ./test1
+
+Room Number: 101, BedType: King, Capacity: 4, HasFridge: 0, numReservations: 0
+
+isMatch test successful
+
+Running: ./test1
+
+Room Number: 101, BedType: King, Capacity: 4, HasFridge: 0, numReservations: 0
+
+isMatch test successful
+
+Running: ./test1
+
+Room Number: 101, BedType: King, Capacity: 3, HasFridge: 1, numReservations: 0
+
+isMatch test successful
+
+Running: ./test1
+
+Room Number: 101, BedType: King, Capacity: 2, HasFridge: 1, numReservations: 0
+
+isMatch test successful
+
+
+
+***************************************************************************
+* Mark: 22/24
+***************************************************************************
+

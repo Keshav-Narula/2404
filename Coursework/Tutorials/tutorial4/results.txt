@@ -1,0 +1,143 @@
+***************************************************************************
+* Unzipping *.zip
+***************************************************************************
+
+***************************************************************************
+* Compilation
+***************************************************************************
+Executing: make clean
+Executing: make all
+
+Testing stack object array
+
+Executing: valgrind ./test
+Running:  ['valgrind', './test']
+-- Photo ctor:  N/A
+-- Photo ctor:  N/A
+-- Photo ctor:  N/A
+-- Photo ctor:  Selfie
+-- Photo ctor:  Alien
+-- Photo ctor:  Baboon
+
+Photo MetaData: Title: Selfie Date: January 1, 1901Content
+  picture
+ ▄▀▀▀▀▀───▄█▀▀▀█▄
+▐▄▄▄▄▄▄▄▄██▌▀▄▀▐██
+▐▒▒▒▒▒▒▒▒███▌▀▐███
+ ▌▒▓▒▒▒▒▓▒██▌▀▐██
+ ▌▓▐▀▀▀▀▌▓─▀▀▀▀▀
+
+Photo MetaData: Title: Alien Date: January 1, 1901Content
+  picture
+┼┼┼┼┼┼┼┼▓▓▓▓┼┼┼
+┼╔═▒▒▒▒▓▄░░▄▓┼┼
+┼▀┼▒▒▒▓▓▒──▒▓▓┼
+┼┼┼▒▌▒▐┼▓▓▓▓┼┼┼
+
+Photo MetaData: Title: Baboon Date: January 1, 1901Content
+  picture
+─▀▀▌───────▐▀▀
+─▄▀░◌░░░░░░░▀▄
+▐░░◌░▄▀██▄█░░░▌
+▐░░░▀████▀▄░░░▌
+═▀▄▄▄▄▄▄▄▄▄▄▄▀═
+
+
+'Selfie' found, 2 marks
+'Alien' found, 2 marks
+'Baboon' found, 2 marks
+'picture' found, 2 marks
+'All heap blocks were freed -- no leaks are possible' found, 2 marks
+
+Testing stack pointer array
+
+Executing: valgrind ./test
+Running:  ['valgrind', './test']
+-- Photo ctor:  N/A
+-- Photo ctor:  N/A
+-- Photo ctor:  N/A
+-- Photo ctor:  Photo
+-- Photo ctor:  Title
+-- Photo ctor:  Here
+
+Photo MetaData: Title: Photo Date: January 1, 1901ContentRCMP
+
+Photo MetaData: Title: Title Date: January 1, 1901ContentRCMP
+
+Photo MetaData: Title: Here Date: January 1, 1901ContentRCMP
+
+'Photo' found, 2 marks
+'Title' found, 2 marks
+'Here' found, 2 marks
+'RCMP' found, 2 marks
+'All heap blocks were freed -- no leaks are possible' found, 2 marks
+
+Testing heap object array
+
+Executing: valgrind ./test
+Running:  ['valgrind', './test']
+-- Photo ctor:  N/A
+-- Photo ctor:  N/A
+-- Photo ctor:  N/A
+-- Photo ctor:  Selfie
+-- Photo ctor:  Alien
+-- Photo ctor:  Baboon
+
+Photo MetaData: Title: Selfie Date: January 1, 1901Content
+  picture
+ ▄▀▀▀▀▀───▄█▀▀▀█▄
+▐▄▄▄▄▄▄▄▄██▌▀▄▀▐██
+▐▒▒▒▒▒▒▒▒███▌▀▐███
+ ▌▒▓▒▒▒▒▓▒██▌▀▐██
+ ▌▓▐▀▀▀▀▌▓─▀▀▀▀▀
+
+Photo MetaData: Title: Alien Date: January 1, 1901Content
+  picture
+┼┼┼┼┼┼┼┼▓▓▓▓┼┼┼
+┼╔═▒▒▒▒▓▄░░▄▓┼┼
+┼▀┼▒▒▒▓▓▒──▒▓▓┼
+┼┼┼▒▌▒▐┼▓▓▓▓┼┼┼
+
+Photo MetaData: Title: Baboon Date: January 1, 1901Content
+  picture
+─▀▀▌───────▐▀▀
+─▄▀░◌░░░░░░░▀▄
+▐░░◌░▄▀██▄█░░░▌
+▐░░░▀████▀▄░░░▌
+═▀▄▄▄▄▄▄▄▄▄▄▄▀═
+
+
+'Selfie' found, 2 marks
+'Alien' found, 2 marks
+'Baboon' found, 2 marks
+'picture' found, 2 marks
+'All heap blocks were freed -- no leaks are possible' found, 2 marks
+
+Testing heap pointer array
+
+Executing: valgrind ./test
+Running:  ['valgrind', './test']
+-- Photo ctor:  N/A
+-- Photo ctor:  N/A
+-- Photo ctor:  N/A
+-- Photo ctor:  Photo
+-- Photo ctor:  Title
+-- Photo ctor:  Here
+
+Photo MetaData: Title: Photo Date: January 1, 1901ContentRCMP
+
+Photo MetaData: Title: Title Date: January 1, 1901ContentRCMP
+
+Photo MetaData: Title: Here Date: January 1, 1901ContentRCMP
+
+'Photo' found, 2 marks
+'Title' found, 2 marks
+'Here' found, 2 marks
+'RCMP' found, 2 marks
+'All heap blocks were freed -- no leaks are possible' found, 2 marks
+
+
+***************************************************************************
+* Mark: 40/40
+***************************************************************************
+

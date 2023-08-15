@@ -1,0 +1,5 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/darryl/Dropbox/classes21/comp2404/lectures/code/17-templates/p4-types'
+g++ -o p4 main.cc
+make: Leaving directory '/home/darryl/Dropbox/classes21/comp2404/lectures/code/17-templates/p4-types'
+ 

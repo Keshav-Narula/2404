@@ -1,0 +1,23 @@
+Author: Keshav Narula, 101224607
+
+(Assignment Spec*)
+In this assignment you will implement an application that assigns and tracks deliveries for Pierre’s Poutine. Pierre’s
+Poutine is a very popular franchise with multiple locations across the city and multiple delivery drivers on duty.
+This application records orders made by customers, assigns them to a Pierre’s franchise location, and then, when a
+location has enough orders, calls a delivery driver to pickup and deliver the orders.
+
+
+List of Files: 
+	defs.h , main.cc , Controller.cc /.h , View.cc /.h , Location.cc /.h , Order.cc /.h , Entity.cc /.h  , Franchise.cc /.h , Driver.cc /.h , Queue.cc /.h , Pierres.cc /.h , Makefile
+
+Instructions for Compilation into executable in terminal:
+	make a3
+	
+
+Instructions for Launching executable in terminal:
+	./a3
+	
+NOTE : make clean (removes object files & executable)
+
+
+Requirements Total: All Assingment Requirements met (To my knowledge :) )

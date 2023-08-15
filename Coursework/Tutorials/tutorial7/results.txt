@@ -1,0 +1,75 @@
+***************************************************************************
+* Unzipping *.zip
+***************************************************************************
+
+***************************************************************************
+* Compilation
+***************************************************************************
+Executing: make clean
+Executing: make all
+\Franchise id test
+
+Executing: ./test
+
+FRANCHISE: ID: F5, NAME: Elise, LOCATION: 0x558cff021200 #Orders: 0
+F5 found, success!
+
+FRANCHISE: ID: F1, NAME: Abe, LOCATION: 0x558cff020f80 #Orders: 0
+F1 found, success!
+
+FRANCHISE: ID: F2, NAME: Bae, LOCATION: 0x558cff021020 #Orders: 0
+F2 found, success!
+
+FRANCHISE: ID: F4, NAME: Deb, LOCATION: 0x558cff021160 #Orders: 0
+F4 found, success!
+
+FRANCHISE: ID: F3, NAME: Cedric, LOCATION: 0x558cff0210c0 #Orders: 0
+F3 found, success!
+
+
+Test passed
+
+Driver id test
+
+Executing: ./test
+
+DRIVER: ID: D5, NAME: Elise, LOCATION: 0x5594201a4200 #Orders: 0
+D5 found, success!
+
+DRIVER: ID: D1, NAME: Abe, LOCATION: 0x5594201a3f80 #Orders: 0
+D1 found, success!
+
+DRIVER: ID: D2, NAME: Bae, LOCATION: 0x5594201a4020 #Orders: 0
+D2 found, success!
+
+DRIVER: ID: D4, NAME: Deb, LOCATION: 0x5594201a4160 #Orders: 0
+D4 found, success!
+
+DRIVER: ID: D3, NAME: Cedric, LOCATION: 0x5594201a40c0 #Orders: 0
+D3 found, success!
+
+
+Test passed
+
+Delivery test
+
+Executing: ./test
+
+Adding 3 orders to franchise...
+
+Driver picking up 2 orders...
+
+Delivering 2 orders...
+
+Driver picking up order
+
+All tests passed!
+
+
+Test passed
+
+
+***************************************************************************
+* Mark: 6/6
+***************************************************************************
+

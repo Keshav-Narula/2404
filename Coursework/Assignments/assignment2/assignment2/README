@@ -1,0 +1,18 @@
+Author: Keshav Narula, 101224607
+
+(Assignment Spec*)Program emualtes a Photo Viewing Application called PhotoGram, Any Photo on PhotoGram must belong to an Album. Albums have a title and a description and a data structure for storing Photos. Each Photo will have a title, Date taken, and content (which are the pictures themselves). Photos may be printed (which is to have their metadata displayed without the content) or displayed, which is to print their metadata and content together to the console. PhotoGram will consist of 0 or more Albums. A Client class will be able connect to PhotoGram where they can display Photos from any Album stored on PhotoGram. In addition, the Client will be able to “download” Albums. This copies the Album to “local storage”, which, in this exercise, is a data structure in the Client class. Users can then display the Album locally, which should work even if the PhotoGram network deletes the original Album. In other words, downloading consists of making a deep copy of the Album. There is a TestControl class that connects and test the functionality of the PhotoGram and Client classes. You will then be able to run various tests using the TestControl and TestView objects.
+
+List of Files: 
+	defs.h , main.cc , Date.cc /.h , Date.cc /.h , Photo.cc /.h , Album.cc /.h  , PhotoArray.cc /.h , AlbumArray.cc /.h , PhotoGram.cc /.h , Client.cc /.h , TestControl.cc /.h , TestView.cc /.h , Makefile
+
+Instructions for Compilation into executable in terminal:
+	make all
+	
+
+Instructions for Launching executable in terminal:
+	./a2
+	
+NOTE : make clean (removes object files & executable)
+
+
+Requirements Total: All Assingment Requirements met (To my knowledge :) )

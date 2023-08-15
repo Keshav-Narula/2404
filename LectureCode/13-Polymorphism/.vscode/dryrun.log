@@ -1,0 +1,10 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/darryl/Dropbox/classes21/comp2404/lectures/code/14-polymorphism'
+g++ -o p1 p1-basic.cc
+g++ -o p2 p2-morph.cc
+g++ -o p3 p3-dest.cc
+g++ -o p4 p4-abs.cc
+g++ -o p5 p5-vect.cc
+g++ -o p6 p6-dyn.cc
+make: Leaving directory '/home/darryl/Dropbox/classes21/comp2404/lectures/code/14-polymorphism'
+ 

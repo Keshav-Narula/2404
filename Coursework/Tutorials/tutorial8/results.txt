@@ -1,0 +1,109 @@
+
+***************************************************************************
+* Compilation
+***************************************************************************
+Executing: make clean
+Executing: make all
+Executing: ./test
+Date_Criteria START Date: April 1, 2023 END Date: April 2, 2023
+
+Photo MetaData: Title: Bear Date: April 1, 2023
+Should match
+Matched
+Test passed
+
+Date_Criteria START Date: April 2, 2023 END Date: April 3, 2023
+
+Photo MetaData: Title: Bear Date: April 1, 2023
+Should not match
+Did not match
+Test passed
+
+Testing date criteria passed
+
+
+
+Executing: ./test
+CatCriteria Category: Animal
+
+Photo MetaData: Title: Bear Date: April 1, 2023
+Should match
+Matched
+Test passed
+
+CatCriteria Category: People
+
+Photo MetaData: Title: Bear Date: April 1, 2023
+Should not match
+Did not match
+Test passed
+
+Testing category criteria passed
+
+
+
+Executing: ./test
+CandD_Criteria :
+CatCriteria Category: Animal
+Date_Criteria START Date: April 1, 2023 END Date: April 2, 2023
+
+Photo MetaData: Title: Bear Date: April 1, 2023
+Should match
+Matched
+Test passed
+
+CandD_Criteria :
+CatCriteria Category: Animal
+Date_Criteria START Date: April 2, 2023 END Date: April 3, 2023
+
+Photo MetaData: Title: Bear Date: April 1, 2023
+Should not match
+Did not match
+Test passed
+
+CandD_Criteria :
+CatCriteria Category: People
+Date_Criteria START Date: April 1, 2023 END Date: April 2, 2023
+
+Photo MetaData: Title: Bear Date: April 1, 2023
+Should not match
+Did not match
+Test passed
+
+CandD_Criteria :
+CatCriteria Category: People
+Date_Criteria START Date: April 2, 2023 END Date: April 3, 2023
+
+Photo MetaData: Title: Bear Date: April 1, 2023
+Should not match
+Did not match
+Test passed
+
+Testing artist or category criteria passed
+
+
+
+Executing: ./test
+Date_Criteria START Date: April 1, 2023 END Date: May 2, 2023
+
+April 1, 2023, May 2, 2023 found in output, test passed
+
+CatCriteria Category: Animal
+
+'Animal' found in output, test passed
+
+CandD_Criteria :
+CatCriteria Category: People
+Date_Criteria START Date: April 1, 2023 END Date: May 2, 2023
+
+
+April 1, 2023, May 2, 2023 and 'People' found in output, test passed
+
+
+
+
+
+***************************************************************************
+* Mark: 12/12
+***************************************************************************
+
